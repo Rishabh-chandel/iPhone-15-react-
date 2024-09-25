@@ -130,7 +130,7 @@ export const Videocomp = ({ videoSectionRef }) => {
 
     return (
         <>
-            <div className='flex items-center -ml-10' ref={videoSectionRef}>
+            <div className='flex items-center' ref={videoSectionRef}>
                 {hightlightsSlides.map((list,i) => (
                         <div key={list.id} id="slider" className='sm:pr-20 pr-10'>
                             <div className='video-carousel_container'>

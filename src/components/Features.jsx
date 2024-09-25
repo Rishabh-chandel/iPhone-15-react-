@@ -36,8 +36,8 @@ function Features() {
                 <h1 id='feature-title' className='section-heading'>Explore the full story..</h1>
             </div>
             <div className='flex-center flex-col overflow-hidden'>
-                <div className='mt-32 mb-24 pl-24'>
-                    <h2 className='text-5xl lg-text-7xl font-semibold'>iPhone.</h2>
+                <div className='mt-32 mb-24'>
+                    <h2 className='text-5xl lg-text-7xl font-semibold'>{"     "}iPhone.</h2>
                     <h2 className='text-5xl lg-text-7xl font-semibold'>Forged in titanium.</h2>
                 </div>
                 <div className='flex-center flex-col sm:px-10'>
@@ -48,12 +48,13 @@ function Features() {
                                 <source src={exploreVideo} type='video/mp4'/>
                         </video>
                     </div>
+                    <br></br>
                     <div className='flex flex-col w-full relative'>
                         <div className='feature-video-container'>
-                            <div className='overflow-hidden flex h-[50vh]'>
+                            <div className='overflow-hidden flex h-[30vh] w-full'>
                                 <img src={explore1Img} alt='tit' className='overflow-hidden feature-video g_grow'/> 
                             </div>
-                            <div className='overflow-hidden flex h-[50vh]'>
+                            <div className='overflow-hidden flex h-[30vh] w-full'>
                                 <img src={explore2Img} alt='tit' className='overflow-hidden feature-video g_grow'/>
                             </div>
                         </div>
